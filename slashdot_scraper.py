@@ -88,5 +88,8 @@ if login(user,pw) == user:
                               'Author' : rest,
                               'Date': epoch_time})
 
-    print (posts)
+ 
+    for i in posts:
+        for d in i:
+            print(i, d, sep='')
     
